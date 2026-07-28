@@ -1,0 +1,43 @@
+name="Dhruv" # Variable declaration
+print(name)  #Code execution
+another_friend='Aryan'  # Variable declaration
+print(another_friend)   #Code execution
+print("Hello,"+name)
+Dean=('''-->>I am Dhruv,   
+--I am a computer engg
+--He want to eat an apple''')  #Multiple line comment.
+print(Dean)
+print(name[0:5])      #Accesing character of the string
+print(name[4])        #Accesing character of the string
+#print(name[5]) throws an error
+
+# Looping through the strings
+print("Lets use a for loop\n")
+for dhruv in Dean: #(variable) character: LiteralString
+    print(dhruv)
+
+# String Method:
+# String Slicing & Operations on string.
+names="Sarang"
+len1=len(names)
+print(len1)          #6
+print(names[:3])
+print(names[-6:])
+
+# Uppercase
+a="Harry"
+b="!!!!Dhruv Hendreeeeege"
+print(a.endswith("p"))
+print(len(a))
+print(a.upper())
+print(a.lower())
+print(b.rstrip("e"))
+print(b.replace("Dhruv","Sarang"))
+print(b.split(" "))
+blogHeading="introduction to Python"
+print(blogHeading.capitalize())
+str1="Wellcome to the Console!!!"
+print(len(str1.center(50)))
+print(str1.center(50))
+print(len(str1))
+print(b.count("!"))

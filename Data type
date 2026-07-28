@@ -1,0 +1,69 @@
+# ________________________________________Data Types________________________________
+'''Variable:-
+             Variable is like a container that holds data.Creating a variable is like crreatng a placeholder 
+in memory and assing it some value.In python its as easy as writing:'''
+
+a=1
+print(a)
+# rule 1=Always show stering in the double inverted comma  ("   ")
+b="Dhruv"
+print(b)
+# rule 2=Concatinate the same variable ,like string +string, value+value]
+  
+a1=200
+print(a+a1)
+print("Type of a is",type(a)) #Type of a is <class 'int'>
+print("Type of a is",type(b)) #Type of a is <class 'str'>
+c=True
+print("Type of a is",type(c)) #Type of a is <class 'bool'>
+d=None
+print("Type of a is",type(d)) #Type of a is <class 'NoneType'>
+e=complex(2,5)
+print(e)                      #(2+5j)
+print("Type of a is",type(e)) #Type of a is <class 'complex'>
+ 
+'''
+     1. Numeric data :int, float, complex
+ a. int:3, -8,56
+ b. float:5.89, 9.765, -9.768
+ c. complex: 6+2i
+ 
+     2.text data: str
+ str:"Hello world!!!","python programming"
+ 
+     3. Boolean data:
+ Boolean data consist of values tru or false.
+ 
+     4.Sequenced data: list, tuple
+  List: An list is an ordered collection of data with element separted 
+ by a comma and enclosed within square bracket .List are mutable and 
+ can be modified after creation. 
+ 
+ eg.-list1=[8, 2.3,[-4,5],["apple", "banana"]]
+ print(list1)
+ 
+  Tuple: A tuple is an ordered collection of data with elements seperated
+ by comma and enclose within psarenthesis. tuples are immutable and cannot
+ be modifed after creation.
+  eg.-
+  tuple1=(("Parrot","Sparrow"), ("Lion", "tiger"))
+  print(tuple1)
+  
+  o/p=(('Parrot','Sparrow'), ('Lion', 'tiger'))
+  
+     5.Mpped data: dict
+  dict: Adictionary is an unordered collectiomn of data containg a key:value pair.
+  The key:value pairs are enclosed within curly brackets.
+  
+  eg.-
+  dict1={"name":"Sakshi", "age":20, "canvotre":true}
+  print(dict1)
+  
+  o/p={ 'name':'Sakshi', 'age':20, 'canvotre':true}
+  '''
+list1=[8, 2.3,[-4,5],["apple", "banana"]]
+print(list1)
+tuple1=(("Parrot","Sparrow"), ("Lion", "tiger"))
+print(tuple1)
+dict1={"name":"Sakshi", "age":20, "canvote":True}
+print(dict1)

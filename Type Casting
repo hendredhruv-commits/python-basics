@@ -1,0 +1,29 @@
+
+# __________________Type Casting_____________________
+
+'''Explicit function:
+The conversion of one data type into another data type, done via developer 
+or programmer's intervention or manually as per the requirement, is known 
+as explicit type conversion.
+It can be achieved with the help of Python's built-in type conversion 
+functions such as int(), float(), hex(), oct(), str(), etc.
+'''
+
+a="1"
+b="3"
+print(int(a)+int(b))
+print(a+b)
+
+'''Implicit function:
+Data types in Python do not have the same level i.e. ordering of data types
+is not the same in Python. Some of the data types have higher-order, and 
+some have lower order. While performing any operations on variables with 
+different data types in Python, one of the variable's data types will be
+changed to the higher data type. According to the level, one data type is
+converted into other by the Python interpreter itself (automatically). This 
+is called, implicit typecasting in python
+python convert smaller daata type to higher data type to prevent data loss
+'''
+c=2.34
+d=4
+print(c+d)

@@ -16,7 +16,7 @@ match x:
     case 2:
         print("x%2==0 and case is 2")
         # empty Case with if-condition
-case  if x<10:
+    case  if(x<10):
             print("x is <10 ")
         # default case(will only be matchesd if the above cases were not matched)
         # so it is basically just an else:

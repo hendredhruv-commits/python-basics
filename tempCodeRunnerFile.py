@@ -1,5 +1,1 @@
-colours=["Red", "Green", "Yellow", "White"]
-# for colour in colours:
-#     print(colour)
-#     for i in colour:
-#         print(i)
+print("Count of 6 in tuple1 is:", res

@@ -1,7 +1,8 @@
 # ________________________________________Data Types________________________________
 '''Variable:-
-             Variable is like a container that holds data.Creating a variable is like crreatng a placeholder 
-in memory and assing it some value.In python its as easy as writing:'''
+             Variable is like a container that holds data.Creating a variable 
+             is like crreatng a placeholder in memory and assing it some value.
+             In python its as easy as writing:'''
 
 a=1
 print(a)
@@ -35,7 +36,7 @@ print("Type of a is",type(e)) #Type of a is <class 'complex'>
  Boolean data consist of values tru or false.
  
      4.Sequenced data: list, tuple
-  List: An list is an ordered collection of data with element separted 
+  List: A list is an ordered collection of data with element separted 
  by a comma and enclosed within square bracket .List are mutable and 
  can be modified after creation. 
  
@@ -51,15 +52,15 @@ print("Type of a is",type(e)) #Type of a is <class 'complex'>
   
   o/p=(('Parrot','Sparrow'), ('Lion', 'tiger'))
   
-     5.Mpped data: dict
-  dict: Adictionary is an unordered collectiomn of data containg a key:value pair.
+     5.Mapped data: dict
+  dict: A dictionary is an unordered collection of data containing a key:value pair.
   The key:value pairs are enclosed within curly brackets.
   
   eg.-
-  dict1={"name":"Sakshi", "age":20, "canvotre":true}
+  dict1={"name":"Sakshi", "age":20, "can vote":true}
   print(dict1)
   
-  o/p={ 'name':'Sakshi', 'age':20, 'canvotre':true}
+  o/p={ 'name':'Sakshi', 'age':20, 'can vote':true}
   '''
 list1=[8, 2.3,[-4,5],["apple", "banana"]]
 print(list1)
